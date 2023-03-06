@@ -1,3 +1,25 @@
-/* .transactionHistory{
-background-color: rebeccapurple;
-} */
+.transactionHistory{
+      background: #f5ffff;
+border: 1px solid #e3eef7;
+  text-align: center;
+  margin: 50px auto 50px auto;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+    rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+
+.transactionHistory th{
+        text-transform: uppercase;
+        background:  #3cb6d4;
+        color: white;
+        padding: 10px 15px;
+}
+
+.transactionHistory tr:nth-child(odd) {
+    background: #d2d4d8;
+}
+
+.transactionHistory td{
+    border: 1px solid #e3eef7;
+        padding: 20px 80px;
+}
+
